@@ -3,7 +3,6 @@
   height: 5rem;
   width: 100%;
   text-align: center;
-  padding: 1.2rem;
 }
 
 .carousel-img {
@@ -24,6 +23,9 @@
 }
 
 /* Contact */
+.container {
+  width: 100%;
+}
 .contact {
   height: 28rem;
   border: solid black 1px;
