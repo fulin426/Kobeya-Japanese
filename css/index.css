@@ -1,3 +1,8 @@
+
+html, body {
+  overflow-x: hidden;
+}
+
 /* img carousel */
 .popular-dishes {
   height: 5rem;
