@@ -1,0 +1,1 @@
+# Kobeya-Japanese Home Page

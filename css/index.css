@@ -1,0 +1,55 @@
+/* img carousel */
+.popular-dishes {
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+/* about section */
+.about-title {
+  text-align: center;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+/* Menu section */
+.menu-container {
+  text-align: center;
+  height: 24rem;
+}
+
+/* Contact */
+.contact {
+  height: 28rem;
+  border: solid black 1px;
+}
+
+.contact-container {
+  padding: 2rem;
+  border: solid black 1px;
+}
+
+.contact-info {
+  margin: 0;
+  margin-bottom: .2rem;
+  padding: 0;
+}
+
+/* cavier order section */
+.cavier-container {
+  text-align: center;
+  height: 12rem;
+}
+
+/* footer Section */
+footer {
+  height: 2.5rem;
+  text-align: center;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
