@@ -70,14 +70,14 @@ $(document).ready(function(){
   ]
   });
 });
+
 //Google Maps
 function initMap() {
-  let options = {
-    zoom: 16,
-    center: {lat: 37.5442391, lng: -122.3059977}
-  };
 
-  let map = new google.maps.Map(document.getElementById('map'), options);
+  let map = new google.maps.Map(document.getElementById('map'), {
+		zoom: 16,
+		center: {lat: 37.5442391, lng: -122.3059977}
+	});
 
   let marker = new google.maps.Marker({
     position: {lat: 37.543630, lng: -122.307940},
