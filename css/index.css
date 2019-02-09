@@ -1,44 +1,56 @@
-
+/* eliminate extra margin-right in mobile view */
 html, body {
   overflow-x: hidden;
 }
 
-/* img carousel */
-.popular-dishes {
-  height: 5rem;
-  width: 100%;
+.find-us-header, .about-title, .menu-container,
+.caviar-container, footer, .scroll-top {
   text-align: center;
 }
 
+/* Navigation */
+.navbar {
+  background-color: #ffc425 !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+/* img carousel */
 .carousel-img {
   width: 100%;
 }
 
 /* about section */
 .about-title {
-  text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
 
 /* Menu section */
 .menu-container {
-  text-align: center;
   height: 24rem;
 }
 
-/* Contact */
+.menu-pdf {
+  line-height: 24rem;
+}
+
+/* Contact - Find Us*/
+.find-us-header {
+    min-height: 2.8rem;
+}
 .container {
   width: 100%;
 }
 .contact {
-  height: 28rem;
-  border: solid black 1px;
+  margin-bottom: .8rem;
 }
 
 .contact-container {
   padding: 2rem;
-  border: solid black 1px;
+  background: #DCDCDC;
 }
 
 .contact-info {
@@ -47,16 +59,37 @@ html, body {
   padding: 0;
 }
 
+#map {
+ height: 27rem;
+}
+
 /* cavier order section */
-.cavier-container {
-  text-align: center;
-  height: 12rem;
+.caviar-container {
+  height: 13rem;
+  padding: 1.5rem;
+}
+
+.caviar-logo {
+  width: 12rem;
+  margin-top: 1.8rem;
+  margin-bottom: .5rem;
+}
+
+/* scrolltop button */
+.top-trigger {
+  width: 3rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.top-text {
+  margin: 0;
 }
 
 /* footer Section */
 footer {
-  height: 2.5rem;
+  height: 4rem;
   text-align: center;
-  padding: .5rem;
-  margin-bottom: 1rem;
+  padding: 1.1rem;
+  background-color: #ffc425;
 }

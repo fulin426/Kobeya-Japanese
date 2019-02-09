@@ -9,90 +9,100 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <!-- Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Kobeya</a>
+      <a class="navbar-brand" id="nav-top" href="#">Kobeya</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link history-link" href="#History">History</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link menu-link" href="#Menu">Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link find-us-link" href="#Find-Us">Find Us</a>
           </li>
         </ul>
       </div>
     </nav>
     <!-- Landing Image -->
-    <img src="img/Landing_Curry.jpg" class="img-fluid" alt="Landing_Curry" />
-    <div class="container">
-      <div class="popular-dishes">
-        <h3>Dishes</h3>
+    <div>
+      <img src="img/Landing_Curry.jpg" class="img-fluid" alt="Landing_Curry" />
+    </div>
+    <!-- Picture carousel -->
+    <div class="popular-dishes">
+    </div>
+    <div class="carousel">
+      <div><img class="carousel-img" src="img/Bento_Box.jpg" /></div>
+      <div><img class="carousel-img" src="img/Gyoza.jpg" /></div>
+      <div><img class="carousel-img" src="img/Katsu_Rice.jpg" /></div>
+      <div><img class="carousel-img" src="img/Teriyaki_Beef.jpg" /></div>
+      <div><img class="carousel-img" src="img/Curry_Rice.jpg" /></div>
+      <div><img class="carousel-img" src="img/Misc_Dishes.jpg" /></div>
+    </div>
+    <!-- About Section -->
+    <div class="about-section container">
+      <h3 class="about-title" id="History">History</h3>
+      <p>
+        Donec nec consectetur odio, vel consequat nulla. Nulla facilisi. Maecenas in vulputate tellus. Etiam odio quam,
+        accumsan vitae felis ac, pulvinar facilisis ex. Nulla pulvinar lacus non ultrices dictum. Quisque ut finibus erat.
+        Nullam eget dolor eu est imperdiet suscipit eu id enim. Cras feugiat massa ex, malesuada tincidunt arcu rhoncus quis.
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas nec tempus ante.
+        Vivamus vel vehicula mauris, id pharetra nibh. Proin luctus id erat id varius. Suspendisse in iaculis velit, quis tempor nulla.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris in arcu quis justo elementum pretium.
+      </p>
+    </div>
+    <div class="menu-container" id="Menu">
+      <h3 class='menu-pdf'>Menu PDF <i class="fas fa-file-download"></i></h3>
+    </div>
+    <!-- Find Us Section -->
+    <div class="find-us-header">
+      <h3>Find Us</h3>
+    </div>
+    <div class="row contact" id="Find-Us">
+      <div class="col-sm-4 contact-container">
+        <p class="contact-info">140 W 25th Ave</p>
+        <p class="contact-info">San Mateo, CA 94403</p>
+        <p class="contact-info">(650) 678-0880</p>
+        <p class="contact-info">email@email.com</p>
+        <br />
+        <p class="contact-info">Tues - Sat 11:00am - 8:30pm</p>
+        <p class="contact-info">Sun & Mon Closed</p>
       </div>
-      <div class="carousel">
-        <div><img class="carousel-img" src="img/Bento_Box.jpg" /></div>
-        <div><img class="carousel-img" src="img/Gyoza.jpg" /></div>
-        <div><img class="carousel-img" src="img/Katsu_Rice.jpg" /></div>
-        <div><img class="carousel-img" src="img/Teriyaki_Beef.jpg" /></div>
-        <div><img class="carousel-img" src="img/Curry_Rice.jpg" /></div>
-        <div><img class="carousel-img" src="img/Misc_Dishes.jpg" /></div>
+      <div class="col-sm-8" id="map">
+        <!-- send map here -->
       </div>
-      <!-- About Section -->
-      <div class="about-section">
-        <div>
-          <h3 class="about-title">About</h3>
-        </div>
-        <p>
-          Donec nec consectetur odio, vel consequat nulla. Nulla facilisi. Maecenas in vulputate tellus. Etiam odio quam,
-          accumsan vitae felis ac, pulvinar facilisis ex. Nulla pulvinar lacus non ultrices dictum. Quisque ut finibus erat.
-          Nullam eget dolor eu est imperdiet suscipit eu id enim. Cras feugiat massa ex, malesuada tincidunt arcu rhoncus quis.
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas nec tempus ante.
-          Vivamus vel vehicula mauris, id pharetra nibh. Proin luctus id erat id varius. Suspendisse in iaculis velit, quis tempor nulla.
-          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris in arcu quis justo elementum pretium.
-        </p>
-      </div>
-      <div class="menu-container">
-        <h3>Menu PDF</h3>
-      </div>
-      <!-- Contact Section -->
-      <div class="container">
-        <div class="row contact">
-          <div class="col-sm-4 contact-container">
-            <p class="contact-info">140 W 25th Ave</p>
-            <p class="contact-info">San Mateo, CA 94403</p>
-            <p class="contact-info">(650) 678-0880</p>
-            <p class="contact-info">email@email.com</p>
-            <br />
-            <p class="contact-info">Tues - Sat 11:00am - 8:30pm</p>
-            <p class="contact-info">Sun & Mon Closed</p>
-          </div>
-          <div class="col-sm-8">
-            Google Maps
-          </div>
-        </div>
-      </div>
-      <!-- Caiver Order Section -->
-      <div class="cavier-container">
-        <h3>Cavier</h3>
-        <p>Deliver Pickup</p>
+    </div>
+    <!-- Caiver Order Section -->
+    <div class="caviar-container">
+      <img class="caviar-logo" src="img/Caviar_Logo.png" alt="Caviar_Logo" />
+      <p>
+      <a href="https://www.trycaviar.com/t/peninsula/kobeya-8082?groups=f_online__d_clink2__p_marketing__c_merchant-links&how=delivery&utm_medium=localmarketing&utm_source=widget&utm_campaign=kobeya-8082&utm_term=peninsula&utm_content=kobeya-8082&cvosrc=localmarketing.widget.kobeya-8082&cvo_campaign=kobeya-8082&cav_medium=widget&cav_source=kobeya-8082" target="_blank">Deliver</a>
+      <a href="https://www.trycaviar.com/t/peninsula/kobeya-8082?groups=f_online__d_clink2__p_marketing__c_merchant-links&how=pickup&utm_medium=localmarketing&utm_source=widget&utm_campaign=kobeya-8082&utm_term=peninsula&utm_content=kobeya-8082&cvosrc=localmarketing.widget.kobeya-8082&cvo_campaign=kobeya-8082&cav_medium=widget&cav_source=kobeya-8082" target="_blank">Pickup</a>
+      </p>
+    </div>
+    <div class="scroll-top">
+      <div class="top-trigger" href="#nav-top">
+        <i class="fas fa-angle-double-up"></i>
+        <h4 class="top-text">Top</h4>
       </div>
     </div>
     <footer>
       © Kobeya Japanese 2019
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAV8Ud2J91NECyukyaHB52PbYH4C5LKU7Y&callback=initMap"async defer></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/client.js"></script>
   </body>
