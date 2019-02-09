@@ -21,7 +21,7 @@ $('.find-us-link').on('click', function(event) {
 	let jump = $(this).attr("href");
     console.log(jump);
 	let new_position = $(jump).offset();;
-	$('html, body').stop().animate({ scrollTop: new_position.top - 50 }, 600);
+	$('html, body').stop().animate({ scrollTop: new_position.top - 60 }, 600);
 });
 
 //scroll to top
@@ -61,7 +61,7 @@ $(document).ready(function(){
       breakpoint: 480,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 2
       }
     }
     // You can unslick at a given breakpoint now by adding:
