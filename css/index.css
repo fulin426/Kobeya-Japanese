@@ -31,7 +31,7 @@ html, body {
   width: 100%;
 }
 
-/* about section */
+/* about/history section */
 .about-title {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -40,6 +40,9 @@ html, body {
 /* Menu section */
 .menu-container {
   height: 24rem;
+  border-radius: 4px;
+  border: solid 1px black;
+  margin-bottom: .8rem;
 }
 
 .menu-pdf {
@@ -52,19 +55,15 @@ html, body {
     min-height: 2.8rem;
 }
 
-.container {
-  width: 100%;
-}
-
 .contact {
   padding: 2rem;
-  background: #F8F8F8;
+  background: #383838;
+  color: white;
+  border-radius: 2px;
 }
 
 .contact-container {
   margin-bottom: .8rem;
-  border-radius: 3px;
-  border: solid lightgrey 1px;
 }
 
 .contact-info {
@@ -86,7 +85,7 @@ html, body {
   cursor: pointer;
   background-color: #d32323;
   display: inline-block;
-  margin-top: 1.6rem;
+  margin-top: 1.5rem;
 }
 
 .yelp-logo {
@@ -94,13 +93,13 @@ html, body {
 }
 /* cavier order section */
 .caviar-container {
-  height: 13rem;
-  padding: 1.5rem;
+  height: 12rem;
+  padding: 1.6rem;
 }
 
 .caviar-logo {
   width: 12rem;
-  margin-top: 1.8rem;
+  margin-top: 2rem;
   margin-bottom: .5rem;
 }
 
