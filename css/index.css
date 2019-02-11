@@ -57,13 +57,14 @@ html, body {
 
 .contact {
   padding: 2rem;
-  background: #383838;
+  background: #484848;
   color: white;
-  border-radius: 2px;
 }
 
 .contact-container {
   margin-bottom: .8rem;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.20),
+              0 0 0 1px rgba(0,0,0,0.10);
 }
 
 .contact-info {
@@ -101,6 +102,10 @@ html, body {
   width: 12rem;
   margin-top: 2rem;
   margin-bottom: .5rem;
+}
+
+.cavier-link {
+  font-size: 1.2rem;
 }
 
 /* scrolltop button */
