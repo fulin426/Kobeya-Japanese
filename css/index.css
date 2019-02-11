@@ -16,6 +16,15 @@ html, body {
 .navbar-brand {
   font-weight: 700;
 }
+/* override default navbar font colors for my contrast */
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.65);
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
 
 /* img carousel */
 .carousel-img {
@@ -42,16 +51,20 @@ html, body {
 .find-us-header {
     min-height: 2.8rem;
 }
+
 .container {
   width: 100%;
 }
+
 .contact {
-  margin-bottom: .8rem;
+  padding: 2rem;
+  background: #F8F8F8;
 }
 
 .contact-container {
-  padding: 2rem;
-  background: #E0E0E0;
+  margin-bottom: .8rem;
+  border-radius: 3px;
+  border: solid lightgrey 1px;
 }
 
 .contact-info {
@@ -67,6 +80,18 @@ html, body {
  height: 27rem;
 }
 
+/* social media icons */
+.yelp-logo-container {
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #d32323;
+  display: inline-block;
+  margin-top: 1.6rem;
+}
+
+.yelp-logo {
+  height: 2.6rem;
+}
 /* cavier order section */
 .caviar-container {
   height: 13rem;
